@@ -79,6 +79,7 @@ Java is a widely-used programming language known for its platform independence a
 
 ![JVM Architecture](images/jvm.jpg)
 
+> The garbage collector (GC) in the Java Virtual Machine (JVM) is a mechanism for automatic memory management that frees up memory occupied by unused objects. It > prevents memory leaks by identifying and reclaiming space that is no longer needed by the application, ensuring efficient resource utilization.
 
 ### 🏗️ JVM Working:
 
