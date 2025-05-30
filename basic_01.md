@@ -1,7 +1,3 @@
-Here’s your improved **README-style** markdown with structured formatting, better hierarchy, and enriched sections:
-
----
-
 # 📘 L-01: Basics of Programming and Java
 
 ---
@@ -82,36 +78,82 @@ DSA is like the **foundation and blueprint** of a building (your program).
 
 ## 👨‍🏫 Programming Paradigms
 
-> Paradigms define different ways to write and structure your code.
+Paradigms define different ways to write and structure your code
+---
 
-### 1. Procedural Programming
+### 1. 🔧 Procedural Programming
 
-* Code is a sequence of procedures or steps.
-* Focus: **Functions**
-* 🧪 Example: `C`, `Pascal`
+* Code is written as a sequence of instructions
+* Focus: **Functions/Procedures**
+* 🧪 **Languages**: C, Pascal
 
-### 2. Functional Programming
+#### 📌 Example in C:
+
+```c
+#include <stdio.h>
+
+void greet() {
+    printf("Hello from Procedural Programming!\n");
+}
+
+int main() {
+    greet();
+    return 0;
+}
+```
+
+---
+
+### 2. 🔁 Functional Programming
 
 * Based on **pure functions** with no side effects.
-* Focus: **What** to solve, not **how**
-* ⚙️ Example: `JavaScript` (with functional style)
+* Focus: **What to solve**, not how.
+* ⚙️ **Languages**: JavaScript, Haskell
 
+#### 📌 Example in JavaScript:
+
+```javascript
+// Pure Function
+function add(a, b) {
+    return a + b;
+}
+
+console.log(add(3, 4)); // Output: 7
+```
 #### 🔁 What is a Function?
 
 A **function** is a reusable block of code that performs a specific task when called.
 
-#### ✅ What is a Pure Function?
 
-A function that:
+> ✅ **Pure Function**:
 
-* Always returns the same output for the same input
-* Has **no side effects** (doesn’t modify external state)
+* Always returns same output for same input.
+* No side effects (doesn't modify external variables).
+
+---
 
 ### 3. 🧱 Object-Oriented Programming (OOP)
 
-* Based on **objects** that encapsulate data and behavior
-* Focus on **Encapsulation, Inheritance, Modularity**
-* 🧑‍💻 Example: `Java`, `Python`, `C++`
+* Based on **objects** that contain data + behavior (methods).
+* Focus: **Encapsulation, Inheritance, Modularity**
+* 🧑‍💻 **Languages**: Java, Python, C++
+
+#### 📌 Example in Java:
+
+```java
+class Animal {
+    void sound() {
+        System.out.println("Animal makes a sound");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Animal dog = new Animal();
+        dog.sound();
+    }
+}
+```
 
 ---
 
